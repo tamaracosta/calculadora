@@ -1,0 +1,63 @@
+body {
+    background-color: rgb(0, 0, 0);
+}
+
+h1 {
+    text-align: center;
+    color: deeppink;
+    margin-top: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.fazer-calculo {
+    text-align: center;
+}
+
+input {
+    width: 150px;
+    height: 30px;
+    border-radius: 10px;
+    margin: 0 10px;
+}
+
+button {
+    background-color: deeppink;
+    color: floralwhite;
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 10px;
+    margin: 10px 5px;
+}
+
+ button:hover {
+    background-color: floralwhite;
+    color: deeppink;
+}
+
+
+select {
+    height: 32px;
+    border-radius: 10px;
+}
+
+#calculadora {
+    background-image: url(calculadora.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 300px;
+    height: 360px;
+    margin: 50px auto;
+}
+
+#mostra-numero {
+    background-color: rgb(255, 255, 255);
+    width: 200px;
+    height: 51px;
+    top: 43px;
+    position: relative;
+    margin: auto;
+    text-align: center;
+    font-size: 20px;
+}
+

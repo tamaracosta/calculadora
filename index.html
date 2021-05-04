@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculadora</title>
+</head>
+
+<body>
+    <h1>Calculadora</h1>
+
+    <section class="fazer-calculo">
+        <input id="primeiro-valor" type="number" placeholder="Digite o primeiro valor">
+
+        <select name="operador" id="operador">
+            <option value="+">+</option>
+            <option value="-">-</option>
+            <option value="x">x</option>
+            <option value="/">/</option>
+
+        </select>
+
+
+        <input id="segundo-valor" type="number" placeholder="Digite o segundo valor">
+
+        <div id="botoes">
+            <button onclick="calcular()">Calcular</button>
+            <button onclick="limpar()">Limpar</button>
+        </div>
+
+    </section>
+
+    <div id="conteudo"> </div>
+
+    <div id="calculadora">
+        <div id="mostra-numero"></div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
