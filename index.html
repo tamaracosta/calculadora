@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
     <title>Calculadora</title>
 </head>
 
@@ -16,10 +17,10 @@
         <input id="primeiro-valor" type="number" placeholder="Digite o primeiro valor">
 
         <select name="operador" id="operador">
-            <option value="+">+</option>
-            <option value="-">-</option>
-            <option value="x">x</option>
-            <option value="/">/</option>
+            <option class="operadores" value="+">+</option>
+            <option class="operadores" value="-">-</option>
+            <option class="operadores" value="x">x</option>
+            <option class="operadores" value="/">/</option>
 
         </select>
 
@@ -38,6 +39,18 @@
     <div id="calculadora">
         <div id="mostra-numero"></div>
     </div>
+
+    <footer>
+        <div id="footer">
+            <p id="desenvolvido">Desenvolvido por Tamara Costa</p>
+            <a href="https://www.linkedin.com/in/tamaradscosta/" target="_blank"><i id="linkedin"
+                    class="fab fa-linkedin"></i></a>
+            <a href="https://github.com/tamaracosta" target="_blank"><i id="github"
+                    class="fab fa-github-square"></i></a>
+            <a href="https://www.instagram.com/programadora_do_futuro/" target="_blank"><i id="instagram"
+                    class="fab fa-instagram"></i></a>
+        </div>
+    </footer>
 
     <script src="main.js"></script>
 </body>
